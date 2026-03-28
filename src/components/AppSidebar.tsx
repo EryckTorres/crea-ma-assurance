@@ -77,7 +77,7 @@ export function AppSidebar() {
         </div>
 
         {filteredGroups.map((group) => (
-          <SidebarGroup key={group.group} defaultOpen>
+          <SidebarGroup key={group.group}>
             <SidebarGroupLabel className="text-sidebar-muted-foreground text-[10px] uppercase tracking-widest px-4">
               {!collapsed && group.group}
             </SidebarGroupLabel>
